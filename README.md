@@ -1,23 +1,20 @@
-# Next.js & NextUI Template
+# APINATOR 
 
-This is a template for creating applications using Next.js 13 (pages directory) and NextUI (v2).
+## A quick api project in nextjs to get quickly start with apis
+
+Chatgpt api added to get response using POST request and GET request
 
 ## Technologies Used
 
 - [Next.js 13](https://nextjs.org/docs/getting-started)
 - [NextUI](https://nextui.org)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Framer Motion](https://www.framer.com/motion)
-- [next-themes](https://github.com/pacocoursey/next-themes)
 
 ## How to Use
 
-To create a new project based on this template using `create-next-app`, run the following command:
+Get or post request using URL: https://apinator.vercel.app/api/chatgpt?prompt=yourprompt
 
 ```bash
-npx create-next-app -e https://github.com/nextui-org/next-pages-template
+npx git clone -e https://github.com/siddhartha-up80/apinator
 ```
 ## License
 
