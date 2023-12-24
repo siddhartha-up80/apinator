@@ -2,7 +2,7 @@
 
 ## A quick api project in nextjs to get quickly start with apis
 
-Chatgpt api added to get response using POST request and GET request
+Chatgpt api added to get response using POST request
 
 ## Technologies Used
 
@@ -11,7 +11,7 @@ Chatgpt api added to get response using POST request and GET request
 
 ## How to Use
 
-Get or post request using URL: https://apinator.vercel.app/api/chatgpt?prompt=yourprompt
+post request using URL: https://apinator.vercel.app/api/chatgpt
 
 ```bash
 npx git clone -e https://github.com/siddhartha-up80/apinator
