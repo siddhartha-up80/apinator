@@ -17,7 +17,7 @@ export default async function handler(req, res) {
 
       const response = await openai.createCompletion({
         model: "text-davinci-003",
-        prompt: `You are embedded in my website, and you are given the following prompt: "${prompt}". Now return creative response`,
+        prompt: `"${prompt}". Now return creative response`,
         temperature: 0,
         max_tokens: 3000,
         top_p: 1,
@@ -29,7 +29,7 @@ export default async function handler(req, res) {
       const completion = choices[0].text.trim();
 
       // Respond with a success message
-      res.status(200).json({ completion });
+      res.status(200).json({prompt, completion });
     } catch (error) {
       console.error("Error processing data:", error);
       res.status(500).json({ error: "some error" });
